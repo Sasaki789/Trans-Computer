@@ -901,18 +901,25 @@
           </div>
         </div>
         <div class="card">
-          <form onsubmit="handleForm(event)">
-            <div style="display:flex;gap:8px;margin-bottom:8px">
-              <input id="name" required placeholder="Nama" style="flex:1;padding:10px;border:1px solid #eee;border-radius:10px" />
-              <input id="email" type="email" required placeholder="Email" style="flex:1;padding:10px;border:1px solid #eee;border-radius:10px" />
-            </div>
-            <input id="phone" required placeholder="No. HP / WhatsApp" style="width:100%;padding:10px;border:1px solid #eee;border-radius:10px;margin-bottom:8px" />
-            <textarea id="message" required placeholder="Tulis pesan Anda..." style="width:100%;padding:10px;border:1px solid #eee;border-radius:10px;min-height:100px;margin-bottom:8px"></textarea>
-            <div style="display:flex;gap:8px">
-              <button class="btn" type="submit">Kirim</button>
-              <button type="button" class="outline" onclick="window.open('https://wa.me/6285888636671?text='+encodeURIComponent(document.getElementById('message').value || 'Halo'), '_blank')">Chat via WA</button>
-            </div>
-          </form>
+        <form action="https://formsubmit.co/diazbiasalah2@GMAIL.COM" method="POST">
+  <div style="display: flex; gap:8px;">
+    <input required name="Nama" placeholder="Nama" style="flex:1; padding:10px;">
+    <input required type="email" name="Email" placeholder="Email" style="flex:1; padding:10px;">
+  </div>
+  <input required name="Nomor_HP" placeholder="No. HP / WhatsApp" style="width:100%;margin-top:8px; padding:10px;">
+  <textarea required name="Pesan" placeholder="Tulis pesan Anda..." style="width:100%;margin-top:8px; padding:10px; min-height:80px;"></textarea>
+  <button type="submit"
+    style="background:#0b6efd;color:white;font-weight:600;padding:10px 26px;border:none;border-radius:9px;cursor:pointer;margin-top:8px;">
+    Kirim
+  </button>
+  <a href="https://wa.me/6285888636671?text=Halo Trans Computer, saya ingin menanyakan sesuatu." target="_blank"
+    style="background:#fff;color:#111;border:1px solid #ddd;font-weight:600;padding:10px 26px;border-radius:9px;cursor:pointer;margin-left:8px;display:inline-block;text-decoration:none;">
+    Chat via WA
+  </a>
+  <input type="hidden" name="_next" value="https://trans-computer.vercel.app/terimakasih.html">
+
+</form>
+
         </div>
       </div>
     </section>
