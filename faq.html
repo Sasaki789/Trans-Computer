@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ Interaktif | Trans Computer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9fafb;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #0b6efd;
+    }
+    .faq-container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .faq-item {
+      background: #fff;
+      border: 1px solid #e5eaf1;
+      border-radius: 10px;
+      margin-bottom: 14px;
+      padding: 16px 20px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .faq-item:hover {
+      border-color: #0b6efd;
+      box-shadow: 0 4px 12px rgba(14,110,253,0.15);
+    }
+    .faq-question {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .faq-answer {
+      margin-top: 10px;
+      display: none;
+      color: #555;
+      font-size: 0.95rem;
+    }
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+    .faq-item span {
+      transition: transform 0.2s ease;
+      color: #0b6efd;
+      font-weight: bold;
+    }
+    .faq-item.active span {
+      transform: rotate(90deg);
+    }
+  </style>
+</head>
+<body>
+  <h1>Pertanyaan yang Sering Diajukan (FAQ)</h1>
+
+  <div class="faq-container">
+
+    <div class="faq-item">
+      <div class="faq-question">Berapa lama waktu service laptop biasanya?<span>▶</span></div>
+      <div class="faq-answer">Rata-rata service membutuhkan waktu 1–3 hari kerja, tergantung tingkat kerusakan. Untuk perbaikan ringan bisa selesai dalam beberapa jam.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">Apakah ada garansi service?<span>▶</span></div>
+      <div class="faq-answer">Ya, kami memberikan garansi hingga 30 hari untuk beberapa jenis service. Detail garansi akan dijelaskan saat transaksi.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">Apakah menerima service panggilan ke rumah/kantor?<span>▶</span></div>
+      <div class="faq-answer">Bisa, dengan biaya tambahan sesuai jarak lokasi. Hubungi WhatsApp kami untuk detail biaya dan jadwal teknisi.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">Apakah laptop second yang dijual bergaransi?<span>▶</span></div>
+      <div class="faq-answer">Ya, semua laptop second sudah melalui pengecekan teknisi dan mendapat garansi toko minimal 1 bulan. Beberapa unit tertentu bisa lebih lama.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">Apakah bisa upgrade RAM atau SSD di tempat?<span>▶</span></div>
+      <div class="faq-answer">Bisa. Kami menyediakan upgrade RAM dan SSD langsung di toko dengan proses cepat, biasanya kurang dari 1 jam jika stok tersedia.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">Berapa biaya install ulang Windows?<span>▶</span></div>
+      <div class="faq-answer">Biaya install ulang Windows mulai dari Rp100.000 (tanpa backup data) hingga Rp150.000 (dengan backup data & driver lengkap).</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">Apakah bisa request software tambahan setelah install ulang?<span>▶</span></div>
+      <div class="faq-answer">Bisa. Kami bisa membantu instalasi software umum (Office, browser, multimedia). Untuk software berlisensi khusus, harap menyediakan lisensi sendiri.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">Metode pembayaran apa saja yang tersedia?<span>▶</span></div>
+      <div class="faq-answer">Kami menerima pembayaran tunai, transfer bank, QRIS, dan e-wallet populer (Dana, OVO, GoPay, ShopeePay).</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">Jika laptop saya tidak bisa diperbaiki, apakah tetap kena biaya?<span>▶</span></div>
+      <div class="faq-answer">Jika setelah pengecekan ternyata tidak bisa diperbaiki, kami hanya mengenakan biaya pengecekan (diagnosa), bukan biaya service penuh.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">Apakah ada layanan antar-jemput laptop?<span>▶</span></div>
+      <div class="faq-answer">Ya, untuk area tertentu kami menyediakan layanan antar-jemput dengan biaya tambahan. Silakan konfirmasi melalui WhatsApp.</div>
+    </div>
+
+  </div>
+
+  <script>
+    document.querySelectorAll('.faq-item').forEach(item => {
+      item.addEventListener('click', () => {
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>
