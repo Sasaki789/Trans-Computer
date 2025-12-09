@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home -->
+  <url>
+    <loc>https://trans-computer.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Tentang -->
+  <url>
+    <loc>https://trans-computer.com/#tentang</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Layanan Service Laptop -->
+  <url>
+    <loc>https://trans-computer.com/#layanan</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jual Laptop -->
+  <url>
+    <loc>https://trans-computer.com/#produk</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+
+  <!-- testimoni -->
+  <url>
+    <loc>https://trans-computer.com/#testimoni</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- blog -->
+  <url>
+    <loc>https://trans-computer.com/#blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+ 
+  <!-- Kontak -->
+  <url>
+    <loc>https://trans-computer.com/#kontak</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+
+</urlset>
